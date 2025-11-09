@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+      .sora-tag {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 0.625rem;
+      }
+
+      .sora-title {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.125rem;
+        color: #20293A;
+      }
+
+      .sora-body {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.875rem;
+        color: #394150;
+      }
+
+      .sora-text-small {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.75rem;
+        color: #394150
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 1.75;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      main {
+        padding: 164px 0 0 0;
+        flex: 1;
+      }
+
+      article {
+        border-top-left-radius: 16px 16px;
+        border-top-right-radius: 16px 16px;
+        border-bottom-left-radius: 16px 20px;
+        border-bottom-right-radius: 16px 20px;
+        padding: 16px 16px 20px;
+        width: 368px;
+        box-shadow: 4px 4px 8px #E5EAF0;
+      }
+
+      article hr{
+        margin-left: -16px;
+        margin-right: -16px;
+        border: none;          
+        border-top: 2px solid #E5EAF0;  
+      }
+
+      figure {
+        width: 100%;
+        padding-bottom: 16px;
+      }
+
+      img {
+        border-radius: 16px
+      }
+
+      section.tag {
+        width: 100%;
+        padding-bottom: 16px;
+      }
+
+      span.tag{
+        background-color: #F2EAFD;
+        color: #7C19EE;
+        padding: 6px 16px;
+        border-radius: 20%/50%;
+
+      }
+
+      section.title {
+        width: 100%;
+        padding-bottom: 6px;
+      }
+
+      section.body {
+        width: 100%;
+        padding-bottom: 20px;
+      }
+
+      section.text-small {
+        width: 100%;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+    <main>
+      <article>
+        <figure>
+          <img src="./resources/Cactus.jpg" alt="Cactus" />
+        </figure>
+        <section class="tag sora-tag">
+          <span class="tag">Design</span>
+        </section>
+        <section class="title sora-title">
+          <h2>Embracing Minimalism</h2>
+        </section>
+        <section class="body sora-body">
+          <p>
+            From minimalist sculptures to minimalist paintings, this blog will
+            inspire you to appreciate the beauty that lies in simplicity.
+          </p>
+        </section>
+        <hr>
+        <section class="text-small sora-text-small">
+          <br />
+          <p>Annie Spratt</p>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <div class="author-info">
+        Coded by <a href="#">NRT H.</a> | Challenge by
+        <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+          >devChallenges.io</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
